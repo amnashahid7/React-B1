@@ -1,6 +1,4 @@
-
-
-
+import Navbar from "./Navbar";
 
 function App() {
 
@@ -8,6 +6,7 @@ function App() {
     <>
       <h1>hello world</h1>
       <h2>ahmad</h2>
+      <Navbar />
     </>
   )
 }
