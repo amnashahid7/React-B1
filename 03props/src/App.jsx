@@ -11,7 +11,7 @@ function App() {
       <h1 className="text-danger">Hello, Bootstrap in React!</h1>
       <div className="container d-flex justify-content-between">
         <CardData title="IPhone" />
-        <CardData />
+        <CardData title="Andriod" />
         <CardData />
       </div>
     </>
