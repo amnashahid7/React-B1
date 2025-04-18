@@ -8,11 +8,14 @@ const useCurrencyInfo = (currency) => {
       `https://2025-04-15.currency-api.pages.dev/v1/currencies/${currency}.json`
     ).then((res) => res.json())
     .then((res)=>setData(res));
-    console.log(data);
+    // console.log(data[currency]);
     
   }, [currency]);
-  console.log(data);
-  return data;
+  console.log(data[currency]);
+  // return data.${currency} || {};
+  // return data;
+  return data[currency] || {};
+
   
 };
 
