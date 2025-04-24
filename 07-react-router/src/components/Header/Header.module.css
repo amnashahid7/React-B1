@@ -1,0 +1,17 @@
+.textOrange{
+    color: #C2410C;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+
+}
+.textSimple{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: medium;
+}
+.BtnOrange{
+    background-color: #C2410C !important;
+    color: white !important;
+}
